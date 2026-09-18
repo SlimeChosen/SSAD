@@ -1,0 +1,39 @@
+model:
+    neighbor_code_r: 5
+    k: 16
+    d_max: 1.0
+    d_min: -1.0
+train:
+    label_id: 1
+    json_path: config/data.json
+    epochs: 500
+    batch_size: 1
+    lr: 1.0e-6
+    out_path: checkpoints
+    loss:
+        w_dil: 0.5
+        w_normal: 0.01
+        w_compact: 1.0
+        w_gaussian: 10.0
+        w_curv: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
